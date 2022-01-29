@@ -1,2 +1,0 @@
-(this.webpackJsonptodo=this.webpackJsonptodo||[]).push([[0],{10:function(t,n,e){},11:function(t,n,e){"use strict";e.r(n);var c=e(0),o=e.n(c),s=e(3),i=e.n(s),r=(e(8),e(1)),d=function(){return Object(r.jsx)("div",{className:"App",children:" NETTEM SARATH "})};e(10);i.a.render(Object(r.jsx)(o.a.StrictMode,{children:Object(r.jsx)(d,{})}),document.getElementById("root"))},8:function(t,n,e){}},[[11,1,2]]]);
-//# sourceMappingURL=main.b62b31dc.chunk.js.map

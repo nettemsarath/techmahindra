@@ -1,0 +1,17 @@
+.product_item {
+  margin: 20px;
+  cursor: pointer;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  outline: none;
+  border-radius: 20px;
+  padding: 25px;
+  border: 1px solid;
+  box-shadow: 5px 3px 5px 3px #888888;
+}
+
+.products {
+  display: flex;
+}
