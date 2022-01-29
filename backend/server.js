@@ -34,7 +34,7 @@ mongoose.connection.once("open", function () {
 
 app.use("/", ordersRoute);
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 4000;
 // listen for requests
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
