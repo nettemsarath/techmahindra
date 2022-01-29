@@ -19,22 +19,22 @@ const DB_URL = process.env.DB_URL;
 
 mongoose.Promise = global.Promise;
 
-mongoose.connect(DB_URL, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// mongoose.connect(DB_URL, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
 
-mongoose.connection.on("error", function () {
-  console.log("Could not connect to the database. Exiting now...");
-  process.exit();
-});
-mongoose.connection.once("open", function () {
-  console.log("Successfully connected to the database");
-});
+// mongoose.connection.on("error", function () {
+//   console.log("Could not connect to the database. Exiting now...");
+//   process.exit();
+// });
+// mongoose.connection.once("open", function () {
+//   console.log("Successfully connected to the database");
+// });
 
 app.use("/", ordersRoute);
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 8000;
 // listen for requests
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
